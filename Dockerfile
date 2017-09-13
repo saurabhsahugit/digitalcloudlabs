@@ -1,3 +1,5 @@
+RUN git clone https://github.com/saurabhsahugit/digitalcloudlabs.git
+
 FROM nginx
 
 RUN mkdir /etc/nginx/logs && touch /etc/nginx/logs/static.log
