@@ -1,7 +1,6 @@
 FROM sahudockerhub/digitalcloudlabs
-RUN apt-get install git-all
 RUN apt-get update
-RUN apt-get install git
+RUN apt-get install -y git
 RUN git clone https://github.com/saurabhsahugit/digitalcloudlabs.git
 
 
